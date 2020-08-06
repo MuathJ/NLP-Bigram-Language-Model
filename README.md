@@ -12,9 +12,11 @@ You can either use your own tokenization methodology or the Stanford tokenizer: 
 3.	Vocabulary set extraction.
 
 4.	Estimation of model parameters, i.e., p(wi|wi-1)
-
 *Do not forget to handle Zero probabilities using Add-1 Laplacian Smoothing*
+
 *Do not forget to handle unknown words, words appearing at testing time.*
+
 *Save the parameters of the bi-gram model (probabilities) in a file, so that, at testing time, you need only to load such parameters and not to learn them again.*
+
 
 5.	At testing time, we give your model a sentence, and it calculates its probability.
