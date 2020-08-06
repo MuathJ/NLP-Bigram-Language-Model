@@ -1,5 +1,3 @@
-##########-------------- Muath Juady - 11440920 --------------##########
-
 import glob
 import time
 import nltk
